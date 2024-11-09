@@ -4,6 +4,9 @@
 
 package POO;
 
+import java.util.ArrayList;
+import java.util.List;
+
 /**
  *
  * @author chave
@@ -14,26 +17,27 @@ public class Herencia {
         
         Perro p = new Perro("Color Negro", "Si", "Si", "Si", 4);
         
-        p.Sonido();
-        
-        
-    public static void main(String[] args) {
+        //p.Sonido();
         
         Gato g = new Gato("Color Amarillo", "Si", "Si", "Si", 4);
         
-        g.Sonido();
+        //g.Sonido();
+ 
+        Qeco q = new Qeco("Es pelon", "Si", "Si", "Si", 4);
         
+        //q.Sonido();
+        
+        List<NewClass> lista = new ArrayList<NewClass>();
+        lista.add(p);
+        lista.add(g);
+        lista.add(new Qeco("No", "Si", "Si", "Si", 4));
     
-    public static void main(String[] args) { 
-    
-        Qeco q = new Qeco("Es pelon", "Si", "Si", "Si", 4)
-    }
-        
-    }
-    }
-        
+        for (NewClass item : lista){
             
+            item.Sonido();
+        }
+    }   
         
-        
-    }
 }
+
+
