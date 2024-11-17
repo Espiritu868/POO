@@ -10,7 +10,7 @@ import javax.swing.JOptionPane;
 
 /**
  *
- * @author Daniel Sagastume
+ * @author Ever Chavez
  */
 public class frmAuriculares extends javax.swing.JFrame {
     List<Auriculares> lista = new ArrayList<>(); 

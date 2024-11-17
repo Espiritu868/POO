@@ -10,7 +10,7 @@ import javax.swing.JOptionPane;
 
 /**
  *
- * @author Jorge Martinez
+ * @author Ever Chavez
  */
 public class frmTelevisor extends javax.swing.JFrame {
 

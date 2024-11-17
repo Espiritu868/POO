@@ -6,7 +6,7 @@ package Clase20241116;
 
 /**
  *
- * @author Jorge Martinez
+ * @author Ever Chavez
  */
 public class Televisor extends Producto{
     private String Pantalla;
