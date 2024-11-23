@@ -204,8 +204,8 @@ public class frmTelevisor extends javax.swing.JFrame {
             public void run() {
                 new frmTelevisor().setVisible(true);
             }
-        });
-    }
+        
+        });    }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton btnAceptar;
